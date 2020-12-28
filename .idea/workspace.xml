@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29ded458-bcd7-418d-b523-0b2b2e0fa2d4" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/Pragmatic/time_bed.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="29ded458-bcd7-418d-b523-0b2b2e0fa2d4" name="Default Changelist" comment="pragmatic programmer folder">
+      <change beforePath="$PROJECT_DIR$/Cahpter 8/array_build.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Cahpter 8/array_build.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +173,7 @@
       <workItem from="1609145127166" duration="4359000" />
       <workItem from="1609173456209" duration="191000" />
       <workItem from="1609173664600" duration="2065000" />
-      <workItem from="1609182166629" duration="2407000" />
+      <workItem from="1609182166629" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609168312134</created>
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609168312134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pragmatic programmer folder">
+      <created>1609194529239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609194529239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +208,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="pragmatic programmer folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="pragmatic programmer folder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learnProgram@leap_years.rcov" NAME="leap_years Coverage Results" MODIFIED="1609173523449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />

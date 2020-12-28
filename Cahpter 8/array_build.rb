@@ -1,4 +1,4 @@
 
 loop do
-  puts
+  puts 'Enter '
 end
