@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29ded458-bcd7-418d-b523-0b2b2e0fa2d4" name="Default Changelist" comment="init" />
+    <list default="true" id="29ded458-bcd7-418d-b523-0b2b2e0fa2d4" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/Pragmatic/time_bed.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +53,7 @@
       <recent name="$PROJECT_DIR$/Chapter 7" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.scratch">
+  <component name="RunManager" selected="Ruby.time_bed">
     <configuration name="IRB: learnProgram" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="learnProgram" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -90,25 +93,6 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="funboy" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="learnProgram" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/funboy.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <configuration name="leap_years" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="learnProgram" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -136,18 +120,42 @@
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$APPLICATION_CONFIG_DIR$/scratches/scratch.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="time_bed" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="learnProgram" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Pragmatic" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" IGNORE_RCOVRT="true" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Pragmatic/time_bed.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.scratch" />
-        <item itemvalue="Ruby.funboy" />
-        <item itemvalue="Ruby.leap_years" />
+        <item itemvalue="Ruby.time_bed" />
         <item itemvalue="Ruby Console.IRB: learnProgram" />
         <item itemvalue="Ruby.deaf_grandma_extended" />
+        <item itemvalue="Ruby.leap_years" />
+        <item itemvalue="Ruby.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +172,9 @@
       <workItem from="1609064764802" duration="226000" />
       <workItem from="1609066072836" duration="12383000" />
       <workItem from="1609145127166" duration="4359000" />
+      <workItem from="1609173456209" duration="191000" />
+      <workItem from="1609173664600" duration="2065000" />
+      <workItem from="1609182166629" duration="2407000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1609168312134</created>
@@ -178,16 +189,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/learnProgram@IRB__learnProgram.rcov" NAME="IRB: learnProgram Coverage Results" MODIFIED="1609145176975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
-    <SUITE FILE_PATH="coverage/learnProgram@deaf_grandma_extended.rcov" NAME="deaf_grandma_extended Coverage Results" MODIFIED="1609098976576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
-    <SUITE FILE_PATH="coverage/learnProgram@leap_years.rcov" NAME="leap_years Coverage Results" MODIFIED="1609147433091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
+    <SUITE FILE_PATH="coverage/learnProgram@leap_years.rcov" NAME="leap_years Coverage Results" MODIFIED="1609173523449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
     <SUITE FILE_PATH="coverage/learnProgram@deaf_grandma.rcov" NAME="deaf_grandma Coverage Results" MODIFIED="1609093052588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
+    <SUITE FILE_PATH="coverage/learnProgram@time_bed.rcov" NAME="time_bed Coverage Results" MODIFIED="1609194330817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pragmatic" MODULE_NAME="learnProgram" />
     <SUITE FILE_PATH="coverage/learnProgram@test.rcov" NAME="test Coverage Results" MODIFIED="1609086241704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
+    <SUITE FILE_PATH="coverage/learnProgram@IRB__learnProgram.rcov" NAME="IRB: learnProgram Coverage Results" MODIFIED="1609194049338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
+    <SUITE FILE_PATH="coverage/learnProgram@deaf_grandma_extended.rcov" NAME="deaf_grandma_extended Coverage Results" MODIFIED="1609173575967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
     <SUITE FILE_PATH="coverage/learnProgram@funboy.rcov" NAME="funboy Coverage Results" MODIFIED="1609148125907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="learnProgram" />
   </component>
 </project>
